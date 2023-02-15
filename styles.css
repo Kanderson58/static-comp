@@ -1,0 +1,18 @@
+* {
+  border: rgb(250, 215, 221) solid 2px;
+}
+
+body {
+  background-color: rgb(182, 203, 223);
+  display: flex;
+}
+
+nav {
+  max-width: 10%;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
