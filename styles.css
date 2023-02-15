@@ -3,11 +3,14 @@ body {
   font-family: Calibri, sans-serif;
   font-weight: 100;
   color: #a3adc0;
+  margin: 0;
 }
 
 nav {
-  max-width: 10%;
+  width: 15%;
   background-color: #354052;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 main {
@@ -27,8 +30,56 @@ h2 {
 button {
   background: none;
   font-family: Arial, sans-serif;
-  color: grey;
+  color: #a3adc0;
   width: fit-content;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #1c222b;
+}
+
+.nav-main, .nav-admin {
+  border-bottom: #2b3442 solid 2px;
+  padding: 5%;
+}
+
+.nav-main {
+  border-top: #2b3442 solid 2px;
+}
+
+.nav-categories {
+  padding: 5%;
+}
+
+.nav-profile {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  padding: 5% 0 10% 0;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 5%;
+  font-weight: 600;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+}
+
+.profile-dropdown {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.fa {
+  padding-right: 5%;
 }
 
 .graph {
@@ -54,5 +105,5 @@ button {
 .full-page {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 85%;
 }
