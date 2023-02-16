@@ -39,6 +39,7 @@ button {
 
 input {
   border: none;
+  cursor: text;
 }
 
 a {
@@ -140,6 +141,10 @@ button:hover {
 }
 
 /* Search Bar */
+
+.search {
+  cursor: pointer;
+}
 
 .search-input {
   height: 75px;
@@ -247,16 +252,42 @@ button:hover {
 
 .page-view-button:hover {
   border-bottom: #2aaefb solid 3px;
+  color: #2b3442
 }
 
 /* Data/Graphs Section */
 
+.data-graphs {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-top: solid 3px #ebebeb;
+}
+
 .graph {
-  height: 180px;
+  height: 250px;
   width: 350px;
 }
 
 .stats {
-  height: 180px;
-  width: 500px;
+  height: 250px;
+  width: 600px;
+}
+
+.graph-fig, .stats-fig {
+  align-items: center;
+  margin: 0;
+}
+
+.data-button {
+  background-color: white;
+  color: #797979;
+  font-weight: 600;
+  padding: 2%;
+  border: #ebebeb solid 2px;
+  border-radius: 50px;
+}
+
+.data-button:hover {
+  background-color: #d6d6d6;
 }
