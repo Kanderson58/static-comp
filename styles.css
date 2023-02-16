@@ -175,6 +175,11 @@ button:hover {
   font-size: 20pt;
 }
 
+.search:hover, .search-alt:hover {
+  background-color: #2aaefb;
+  color: white;
+}
+
 /* Header */
 
 .header {
@@ -262,16 +267,18 @@ button:hover {
   justify-content: flex-start;
   align-items: flex-end;
   border-top: solid 3px #ebebeb;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .graph {
   height: 250px;
-  width: 350px;
+  width: 450px;
 }
 
 .stats {
   height: 250px;
-  width: 600px;
+  width: 650px;
 }
 
 .graph-fig, .stats-fig {
@@ -283,11 +290,35 @@ button:hover {
   background-color: white;
   color: #797979;
   font-weight: 600;
-  padding: 2%;
+  height: 40px;
+  padding: 0 3% 0 3%;
   border: #ebebeb solid 2px;
   border-radius: 50px;
 }
 
 .data-button:hover {
   background-color: #d6d6d6;
+  color: #2b3442;
+}
+
+/* Collapse Bar */
+
+.fold-up {
+  justify-content: center;
+}
+
+.fa-sort-asc {
+  font-size: 20pt;
+}
+
+.arrow {
+  padding: 0 6px 0 6px;
+  border: 2px solid #a3adc0;
+  border-radius: 50%;
+}
+
+.breakpoint {
+  width: 45%;
+  height: 20px;
+  padding-top: 5px;
 }
