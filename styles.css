@@ -326,3 +326,53 @@ button:hover {
   height: 20px;
   padding-top: 5px;
 }
+
+/* Job Description */
+
+.page-body {
+  justify-content: space-evenly;
+}
+
+.job-description {
+  margin: 5%;
+}
+
+.links {
+  margin: 5%;
+}
+
+table {
+  background-color: white;
+  border-collapse: collapse;
+  font-weight: 600;
+  color: #6c6c6c;
+  font-size: 10pt;
+}
+
+.title {
+  width: 25%;
+  height: 75px;
+}
+
+.info {
+  width: 75%;
+}
+
+.descrip {
+  color: white;
+  height: 75px;
+  background-color: #6f7d95
+}
+
+.descrip-button {
+  background-color: #7d8aa5;
+  width: 15%;
+  height: 50%;
+}
+
+/* Links */
+
+.links {
+  height: 100%;
+  border: #09ab8a 2px solid;
+}
