@@ -111,15 +111,16 @@ button:hover {
 }
 
 .profile-pic {
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
+  padding: 10% 5% 5% 5%;
 }
 
 .profile-dropdown {
   display: flex;
   width: 100%;
   justify-content: center;
-  line-height: 2.5;
+  line-height: 1.5;
   font-size: 12pt;
   font-weight: 600;
 }
@@ -263,27 +264,25 @@ button:hover {
 /* Data/Graphs Section */
 
 .data-graphs {
-  width: 100%;
-  justify-content: flex-start;
+  width: 85%;
+  /* justify-content: flex-start; */
   align-items: flex-end;
   border-top: solid 3px #ebebeb;
-  margin-bottom: 50px;
-  padding-top: 50px;
+  padding: 0 4% 4% 4%;
 }
 
 .graph {
-  height: 250px;
-  width: 450px;
+  height: 350px;
+  width: 500px;
 }
 
 .stats {
-  height: 250px;
-  width: 650px;
+  height: 350px;
+  width: 350px;
 }
 
 .graph-fig, .stats-fig {
   align-items: center;
-  margin: 0;
 }
 
 .data-button {
@@ -326,3 +325,121 @@ button:hover {
   height: 20px;
   padding-top: 5px;
 }
+
+/* Job Description */
+
+.page-body {
+  justify-content: space-evenly;
+}
+
+.job-description {
+  margin: 4%;
+  background-color: white;
+}
+
+.descrip {
+  background-color: #6f7d95;
+  padding: 1% 0 1% 2%;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.descrip-button {
+  background-color: #7d8aa5;
+  height: 25px;
+  width: 75px;
+  color: white;
+  font-weight: 600;
+}
+
+.title {
+  width: 25%;
+  font-weight: 600;
+  color: #6f7d95;
+  padding-right: 2%;
+}
+
+.info {
+  width: 75%;
+  color: #9ea0a7;
+}
+
+.tableRow {
+  margin: 3% 4%;
+  padding-bottom: 3%;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.bottom {
+  border: none;
+} 
+
+/* Links */
+
+.links {
+  margin: 4% 4% 4% 0;
+  height: 100%;
+}
+
+.socials {
+  width: 100%;
+  padding: 4% 2%;
+  margin-bottom: 3%;
+  color: white;
+  font-weight: 600;
+}
+
+.float {
+  float: left;
+  font-size: 12pt;
+}
+
+.fb {
+  background-color: #4a6fc1;
+}
+
+.tw {
+  background-color: #02aaef;
+}
+
+.lkin {
+  background-color: #0181bc;
+}
+
+.copies {
+  width: 100%;
+  padding: 0;
+  align-items: center;
+  background-color: #49b6c0;
+  color: white;
+  font-size: 10pt;
+}
+
+.link {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  padding: 0 4% 0 4%;
+  text-overflow: ellipsis;
+}
+
+.copyButton {
+  margin: 4%;
+  cursor: pointer;
+}
+
+.link-to-job, .button-widget {
+  padding-bottom: 10%;
+  border-bottom: 2px solid #c6ccd4;
+}
+
+.button-widget, .email-resume {
+  padding-top: 5%;
+}
+
+/* Refactors:
+Use flex instead of line height
+Use float instead of nbsp; 
+Color Dropper everything
+Create class for font weight: 600 or other repetative styling*/

@@ -10,11 +10,11 @@
 		<nav>
       <div class="nav-profile column">
         <img src="data/profile.png" class="profile-pic" alt="profile picture">
-        <button class="profile-dropdown nav">Newton Barley &nbsp;<i class="fa fa-sort-down"></i></button>
+        <button class="profile-dropdown nav">HodgePodge &nbsp;<i class="fa fa-sort-down"></i></button>
       </div>
       <div class="nav-main column">
         <h2 class="text-styling">Main</h2>
-        <button class="nav"><i class="fa fa-home nav-padding"></i>&nbsp; HOME</button>
+        <button class="nav"><i class="fa fa-home nav-padding"></i>HOME</button>
         <button class="nav"><i class="fa fa-briefcase nav-padding"></i>&nbsp; JOBS</button>
         <button class="nav"><i class="fa fa-folder nav-padding"></i>&nbsp; RESUMES</button>
         <button class="nav"><i class="fa fa-pencil-square-o nav-padding"></i>&nbsp; TASKS</button>
@@ -87,56 +87,37 @@
         </section>
         <section class="page-body row">
           <div class="job-description">
-            <table>
-              <tr>
-                <td>Position title</td>
-                <td>Customer Service Representative</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>San Francisco, CA</td>
-              </tr>
-              <tr>
-                <td>Employment Type</td>
-                <td>Full-time</td>
-              </tr>
-              <tr>
-                <td>Experience</td>
-                <td>Mid-Level</td>
-              </tr>
-              <tr>
-                <td>Status</td>
-                <td>Open</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>Blah blah blah blah blah</td>
-              </tr>
-              <tr>
-                <td>Hiring Lead</td>
-                <td><img src="" alt="">Tom Tizzy</td>
-              </tr>
-              <tr>
-                <td>Approved Salary</td>
-                <td>$58,000</td>
-              </tr>
-            </table>
+            <span class="row descrip"><p class="descrip">JOB DESCRIPTION</p><p class="descrip"><button class="descrip-button"><i class="fa fa-pencil"></i>&nbsp; EDIT</button></p></span>
+            <span class="row top tableRow"><p class="title">POSITION TITLE</p><p class="info">Customer Service Representative</p></span>
+            <span class="row tableRow"><p class="title">LOCATION</p><p class="info">San Francisco, CA</p></span>
+            <span class="row tableRow"><p class="title">EMPLOYMENT TYPE</p><p class="info">Full-time</p></span>
+            <span class="row tableRow"><p class="title">EXPERIENCE</p><p class="info">Mid-Level</p></span>
+            <span class="row tableRow"><p class="title">STATUS</p><p class="info">Open</p></span>
+            <span class="row tableRow"><p class="title">DESCRIPTION</p><p class="info">Quisque et lectus sed lacus dapibus vehicula eget in ipsum. Nullam tempor lorem viverra euismod viverra. Pellentesque mollis neque at est tincidunt, sit amet fermentum arcu consequat. Donec in facilisis neque. Aenean eu diam rhoncus, viverra leo non, semper lorem. Phasellus mollis libero magna, a hendrerit arcu eleifend a. Nullam at lectus volutpat, dapibus orci a, porta ipsum.</p></span>
+            <span class="row  tableRow"><p class="title">HIRING LEAD</p><p class="info"><img src="" alt="">Tom Tizzy</p></span>
+            <span class="row bottom tableRow"><p class="title">APPROVED SALARY</p><p class="info">$58,000</p></span>
           </div>
           <div class="links column">
-            <button>Post to Facebook</button>
-            <button>Tweet this Job</button>
-            <button>Post to LinkedIn</button>
+            <button class="socials fb"><i class="fa fa fa-user-circle-o float"></i>Post to Facebook</button>
+            <button class="socials tw"><i class="fa fa fa-retweet float"></i>Tweet this Job</button>
+            <button class="socials lkin"><i class="fa fa fa-vcard float"></i>Post to LinkedIn</button>
             <div class="link-to-job">
-              <input type="text" id="copyJob">
-              <label for="copyJob">Copy</label>
+              <h3><i class="fa fa-globe"></i>&nbsp; Link to This Job</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet volutpat lectus. Ut vestibulum, orci eu rhoncus eleifend, dui risus facilisis sem, non lacinia sapien tortor et diam.</p>
+              <button class="copies row"><input class="link" type="text" id="copyJob" value="Donec condimentum vitae ligula eget lacinia." readonly>
+              <label class="copyButton" for="copyJob">Copy</label></button>
             </div>
             <div class="button-widget">
-              <input type="text" id="copyButton">
-              <label for="copyButton">Copy</label>
+              <h3><i class="fa fa-calculator"></i>&nbsp; Use the Button Widget</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur odio a odio rutrum, sed faucibus eros efficitur. Proin condimentum ex a viverra dapibus.</p>
+              <button class="copies row"><input class="link" type="text" id="copyButton" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit." readonly>
+              <label class="copyButton" for="copyButton">Copy</label></button>
             </div>
             <div class="email-resume">
-              <input type="text" id="emailResume">
-              <label for="emailResume">Upload</label>
+              <h3><i class="fa fa-send"></i>&nbsp; Upload Resumes by Email</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lorem vitae purus aliquam aliquet. Donec tincidunt tempor nisi, quis convallis dolor finibus non. </p>
+              <button class="copies row"><input class="link" type="text" id="emailResume" value="example-email@exmaple.com" readonly>
+              <label class="copyButton"  for="emailResume">Upload</label></button>
             </div>
           </div>
         </section>
